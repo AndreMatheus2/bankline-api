@@ -21,4 +21,6 @@ public class Movimentacao {
     private Double valor;
     @Enumerated(EnumType.STRING)
     private MovimentacaoTipo tipo;
+    @Column(name = "id_conta")
+    private Integer idConta;
 }
